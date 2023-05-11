@@ -1,5 +1,6 @@
 import {  useParams } from "react-router-dom";
 import { ZegoUIKitPrebuilt } from '@zegocloud/zego-uikit-prebuilt';
+import Footer from "../Footer/Footer";
 
 const Room = () => {
     const { roomId, name } = useParams();
@@ -54,7 +55,7 @@ const Room = () => {
                 ref={myMeeting}
             ></div>
            </div>
-
+<Footer></Footer>
         </>
     );
 };
